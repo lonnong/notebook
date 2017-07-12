@@ -19,6 +19,7 @@ gem 'devise', '~> 4.3'
 gem 'simple_form'
 gem 'normalize-scss', '~> 5.0', '>= 5.0.3'
 
+gem 'font-awesome-sass'
 
 group :development, :test do
   gem 'byebug', platform: :mri
