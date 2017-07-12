@@ -1,2 +1,31 @@
-%h1 Welcome to NOTEBOOK 
-%p Imagine and Note your Dreams Now. 
+#banner
+	.banner_content
+		%h1 Notebook
+		%p Online notebook.
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonia
+	.wrapper
+		%p.quote "Rails Rocks as Notepad."
+		%p.name - Gene Lonnon 
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Plus
+				%p Keeps your notes in one place in the clouds.
+
+			.callout
+				%h2 Added
+				%p Keeps notes for multiple users
+
+			.callout
+				%h2 Distinction
+				%p Authenticates unique users
+#bottom_cta
+	.wrapper
+		%h2 Great way to Note 
+		%p Sign up and start putting your life on the WEB
+		%button= link_to "Click Here", new_user_registration_path
+
+%footer
+	%p &copy; Gene Lonnon
