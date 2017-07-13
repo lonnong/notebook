@@ -71,14 +71,12 @@ header {
 	padding: 1.75rem 0;
 	border-bottom: 7px solid $green;
 	.header_inner {
-		width: 60%;
+		width: 90%;
 		margin: 0 auto;
 		#logo {
 			display: inline-block;
 			width: 10rem;
 			float: left;
-			width: 50px;
-			height: 30px;
 		}
 		nav {
 			float: right;
